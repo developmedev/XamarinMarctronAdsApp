@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinMarctronAdsApp.Android", "XamarinMarctronAdsApp.Android\XamarinMarctronAdsApp.Android.csproj", "{0469B07B-6553-4BA2-BBA8-E29C66480AD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinMarctronAdsApp", "XamarinMarctronAdsApp\XamarinMarctronAdsApp.csproj", "{24F20F4B-74CA-464C-A71D-3A222D81B343}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0469B07B-6553-4BA2-BBA8-E29C66480AD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0469B07B-6553-4BA2-BBA8-E29C66480AD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0469B07B-6553-4BA2-BBA8-E29C66480AD5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0469B07B-6553-4BA2-BBA8-E29C66480AD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0469B07B-6553-4BA2-BBA8-E29C66480AD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0469B07B-6553-4BA2-BBA8-E29C66480AD5}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{24F20F4B-74CA-464C-A71D-3A222D81B343}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24F20F4B-74CA-464C-A71D-3A222D81B343}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24F20F4B-74CA-464C-A71D-3A222D81B343}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{24F20F4B-74CA-464C-A71D-3A222D81B343}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24F20F4B-74CA-464C-A71D-3A222D81B343}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24F20F4B-74CA-464C-A71D-3A222D81B343}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E936A0EF-96E9-40A9-A213-6380BA10148F}
+	EndGlobalSection
+EndGlobal
