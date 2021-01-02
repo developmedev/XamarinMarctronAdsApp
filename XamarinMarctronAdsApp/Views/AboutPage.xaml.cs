@@ -27,7 +27,7 @@ namespace XamarinMarctronAdsApp.Views
 
             var test = CrossMTAdmob.Current.IsRewardedVideoLoaded().ToString();
             CrossMTAdmob.Current.ShowRewardedVideo();
-            CrossMTAdmob.Current.LoadRewardedVideo("ca-app-pub-2000687856046168/6772815386");
+            CrossMTAdmob.Current.LoadRewardedVideo("ca-app-pub-3940256099942544/5224354917");
             count++;
             Test.Text = count.ToString();
         }
