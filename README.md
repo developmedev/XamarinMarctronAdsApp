@@ -222,7 +222,7 @@ Copy code below behind event
 ```
 var test = CrossMTAdmob.Current.IsInterstitialLoaded().ToString();
             CrossMTAdmob.Current.ShowInterstitial();
-            CrossMTAdmob.Current.LoadInterstitial("ca-app-pub-2000687856046168/1145084183");
+            CrossMTAdmob.Current.LoadInterstitial("ca-app-pub-3940256099942544/1033173712");
 ```
 
 
