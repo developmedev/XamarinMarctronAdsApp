@@ -1,3 +1,5 @@
+# Install Marctron plugin from package manager
+
 # Banner ads
 
 
@@ -215,7 +217,13 @@ private bool _shouldSetEvents = true;
             //Navigation.PushAsync(new SecondPage());
         }
 ```
-
+# Google Interstitial ads
+Copy code below behind event
+```
+var test = CrossMTAdmob.Current.IsInterstitialLoaded().ToString();
+            CrossMTAdmob.Current.ShowInterstitial();
+            CrossMTAdmob.Current.LoadInterstitial("ca-app-pub-2000687856046168/1145084183");
+```
 
 
 ## License
