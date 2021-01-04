@@ -1,4 +1,4 @@
-# Install Marctron plugin from package manager
+# Install Marctron.Admob plugin from package manager
 
 # Banner ads
 
