@@ -3,6 +3,6 @@
     <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="28" />
     <application android:label="XamarinMarctronAdsApp.Android" android:theme="@style/MainTheme">
       <!--Get your own application id from admob-->
-      <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="ca-app-pub-xxxxxxxxxx~xxxxxxxx"></meta-data>    </application>
+      <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="ca-app-pub-3940256099942544~3347511713"></meta-data>    </application>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 </manifest>
