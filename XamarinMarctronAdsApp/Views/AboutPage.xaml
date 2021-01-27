@@ -21,9 +21,14 @@
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
-        <StackLayout  VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
+        
+        <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
+            
             <StackLayout HorizontalOptions="EndAndExpand">
-                <controls:MTAdView x:Name="myAds" IsVisible="false" PersonalizedAds="true" AdsId="ca-app-pub-3940256099942544/6300978111" VerticalOptions="EndAndExpand" >
+                
+                <controls:MTAdView x:Name="myAds" IsVisible="false" 
+                                   PersonalizedAds="true" AdsId="ca-app-pub-3940256099942544/6300978111" 
+                                   VerticalOptions="EndAndExpand" >
                     <controls:MTAdView.HeightRequest>
                         <x:OnIdiom>
                             <x:OnIdiom.Phone>50</x:OnIdiom.Phone>
@@ -32,26 +37,39 @@
                         </x:OnIdiom>
                     </controls:MTAdView.HeightRequest>
                 </controls:MTAdView>
+                
             </StackLayout>
 
         </StackLayout>
+        
         <ScrollView Grid.Row="1">
-            <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="10">
+            
+            <StackLayout Orientation="Vertical" Padding="30,24,30,24"
+                         Spacing="10">
+                
                 <!--rewward points-->
                 <Label x:Name="Test" Text="" FontSize="Title"/>
-                <Label Text="Make changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload. Give it a try!" FontSize="16" Padding="0,0,0,0"/>
+                
+                <Label Text="Make changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload. 
+                       Give it a try!"
+                       FontSize="16" Padding="0,0,0,0"/>
                 
                 <Button Margin="0,10,0,0" Text="Show Reward Ad"
-                      Clicked="Button_Clicked"
+                        Clicked="Button_Clicked"
                         TextColor="White" />
-                <Button Margin="0,10,0,0" Text="Show Interstitial  Ad"
-                      Clicked="Button_Clicked_2"
+                
+                <Button Margin="0,10,0,0" Text="Show Interstitial Ad"
+                        Clicked="Button_Clicked_2"
                         TextColor="White" />
+                
                 <!--<Button Margin="0,10,0,0" Text="Show  banner"
-                      Clicked="Button_Clicked_1"
+                        Clicked="Button_Clicked_1"
                         TextColor="White" />-->
+                
             </StackLayout>
+            
         </ScrollView>
+        
     </Grid>
 
 </ContentPage>
