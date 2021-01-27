@@ -1,12 +1,10 @@
 ﻿using MarcTron.Plugin;
 using MarcTron.Plugin.CustomEventArgs;
 using System;
-using System.ComponentModel;
 using System.Diagnostics;
 using System.Threading.Tasks;
 using Xamarin.Essentials;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace XamarinMarctronAdsApp.Views
 {

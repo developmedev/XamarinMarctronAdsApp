@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace XamarinMarctronAdsApp.Models
+﻿namespace XamarinMarctronAdsApp.Models
 {
     public class Item
     {
