@@ -11,7 +11,11 @@ namespace XamarinMarctronAdsApp.Views
     public partial class AboutPage : ContentPage
     {
         int reward = 0;
+
         private bool _shouldSetEvents = true;
+
+        public int count { get; set; }
+
         public AboutPage()
         {
             InitializeComponent();
@@ -24,7 +28,7 @@ namespace XamarinMarctronAdsApp.Views
 
             CrossMTAdmob.Current.LoadRewardedVideo("ca-app-pub-3940256099942544/5224354917");
         }
-        public int count { get; set; }
+
         private void Button_Clicked(object sender, EventArgs e)
         {
             //myAds.IsVisible = false;
@@ -41,6 +45,7 @@ namespace XamarinMarctronAdsApp.Views
         private void Button_Clicked_1(object sender, EventArgs e)
         {
         }
+
         void SetEvents()
         {
             if (_shouldSetEvents)
@@ -76,6 +81,7 @@ namespace XamarinMarctronAdsApp.Views
             //CrossMTAdmob.Current.OnInterstitialOpened -= Current_OnInterstitialOpened;
             //CrossMTAdmob.Current.OnInterstitialClosed -= Current_OnInterstitialClosed;
         }
+
         private void Current_OnInterstitialClosed(object sender, EventArgs e)
         {
             Debug.WriteLine("OnInterstitialClosed");
@@ -116,8 +122,6 @@ namespace XamarinMarctronAdsApp.Views
             CrossMTAdmob.Current.LoadRewardedVideo("ca-app-pub-2000687856046168/8183902079");
             var test = CrossMTAdmob.Current.IsRewardedVideoLoaded().ToString();
         }
-
-
 
         private void Current_OnRewarded(object sender, MTEventArgs e)
         {
