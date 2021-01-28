@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
-using System.Threading.Tasks;
 using Xamarin.Forms;
-using XamarinMarctronAdsApp.Models;
 
 namespace XamarinMarctronAdsApp.ViewModels
 {

@@ -2,9 +2,7 @@
 using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.Threading.Tasks;
-
 using Xamarin.Forms;
-
 using XamarinMarctronAdsApp.Models;
 using XamarinMarctronAdsApp.Views;
 
